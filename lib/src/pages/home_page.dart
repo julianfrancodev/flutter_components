@@ -81,7 +81,7 @@ List<Widget> _rederList(List<dynamic> data, BuildContext context) {
         // );
         // Navigator.push(context, route);
 
-        Navigator.pushNamed(context, element['ruta']);
+        Navigator.pushNamed(context, '/${element['ruta']}');
       },
     );
     options..add(widgetTemp)..add(Divider());
